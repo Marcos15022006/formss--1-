@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compostela Fitness Club</title>
+</head>
+
+<body>
+    <form action="data.php">
+        <h1>Welcome to the 24x7 Compostela Fitness Club : Courts Reservation Page!!</h1>
+        <img width="400"
+            src="https://mestre.iessanclemente.net/pluginfile.php/30195/mod_resource/content/1/planification.png"
+            alt="a">
+        <fieldset name="Member Demographics">
+            <legend for="Member Demographics">Member Demographics</legend>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <br><br>
+            <label for="Member">Member</label>
+            <input type="radio" name="Member?" id="Member" value="Member">
+            <label for="Non-Member">Non-Member</label>
+            <input type="radio" name="Member?" id="Non-Member" value="Non-Member">
+            <br><br>
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="Email">
+        </fieldset>
+        <p>Facility</p>
+        <select id="Facility" name="Facility">
+            <option value="" selected="selected">Indoor football</option>
+            <option value="" selected="selected">Badminton</option>
+            <option value="" selected="selected">Squash</option>
+            <option value="" selected="selected">Racquetball</option>
+            <option value="" selected="selected">Basquetball</option>
+        </select>
+        <br><br>
+        <p>Select a reservation date and time</p>
+        <input type="date" name="date" id="">
+        <input type="time" name="time" id="">
+        <br><br>
+
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree to the club's reservation policy</label><br>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
